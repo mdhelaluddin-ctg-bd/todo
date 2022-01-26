@@ -10,6 +10,9 @@ export default {
   name: 'App',
   components: {
     tasks
+  },
+  mounted() {
+    console.log(process.env.TOTO_APP_AUTH_API_KEY)
   }
 }
 </script>
