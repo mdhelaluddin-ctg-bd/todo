@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "graphql": "^16.2.0",
     "graphql-tag": "^2.12.6",
+    "realm-web": "^1.6.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {

@@ -1,0 +1,8 @@
+query allTasks {
+    tasks {
+        _id
+        _partition
+        isComplete
+        summary
+    }
+}

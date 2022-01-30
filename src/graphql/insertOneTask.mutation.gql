@@ -1,0 +1,8 @@
+mutation insertOneTask($data: TaskInsertInput!) {
+    insertOneTask(data: $data) {
+        _id
+        _partition
+        isComplete
+        summary
+    }
+}

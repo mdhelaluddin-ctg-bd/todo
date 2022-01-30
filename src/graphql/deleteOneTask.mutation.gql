@@ -1,0 +1,8 @@
+mutation deleteOneTask($query: TaskQueryInput!) {
+    deleteOneTask(query: $query) {
+        _id
+        _partition
+        isComplete
+        summary
+    }
+}

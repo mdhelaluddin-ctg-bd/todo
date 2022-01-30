@@ -1,0 +1,8 @@
+mutation updateOneTask($query: TaskQueryInput!, $set: TaskUpdateInput!) {
+    updateOneTask(query: $query, set: $set) {
+        _id
+        _partition
+        isComplete
+        summary
+    }
+}
